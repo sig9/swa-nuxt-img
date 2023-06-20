@@ -11,7 +11,7 @@ export default defineEventHandler((event): { errormsg: string, filename: string,
     errors = treeData.errors
     tree = treeData.treeString
   } catch (error) {
-    const errormsg = JSON.stringify(error)
+    errormsg = JSON.stringify(error)
   }
 
   const filename = fileURLToPath(new URL(import.meta.url))

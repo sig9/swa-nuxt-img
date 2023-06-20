@@ -1,8 +1,7 @@
 <template>
   <div>
-    <nuxt-img height="200" src="/swa/images/feature/test.png" />
+    <nuxt-img height="800" src="feature/test2.png" />
     <br/>
-    <button :click="refresh">Refresh SWA Directories</button>
     <br/>
     error message:<br/><pre>{{ data?.errormsg }}</pre>
     errors<br/><pre>{{ data?.errors }}</pre>
