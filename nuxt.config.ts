@@ -2,6 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
-    '@nuxt/image',
-  ]
+    '@nuxt/image',    
+  ],
+  image: {
+    domains: ['wonderful-meadow-0d9011810.3.azurestaticapps.net'],
+  }
 })
