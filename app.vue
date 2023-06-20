@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nuxt-img height="200" src="https://wonderful-meadow-0d9011810.3.azurestaticapps.net/images/feature/test.png" />
+    <nuxt-img height="200" src="/swa/images/feature/test.png" />
     <br/>
     <button :click="refresh">Refresh SWA Directories</button>
     <br/>

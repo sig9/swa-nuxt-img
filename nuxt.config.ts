@@ -6,5 +6,8 @@ export default defineNuxtConfig({
   ],
   image: {
     domains: ['wonderful-meadow-0d9011810.3.azurestaticapps.net'],
-  }
+    alias: {
+      swa: 'https://wonderful-meadow-0d9011810.3.azurestaticapps.net'
+    }
+  }  
 })
