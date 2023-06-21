@@ -7,5 +7,8 @@ export default defineNuxtConfig({
    image: {
      domains: ['wonderful-meadow-0d9011810.3.azurestaticapps.net'],
      dir: 'assets/images'
-  }  
+  },
+  nitro: {
+    preset: 'azure',
+  },
 })

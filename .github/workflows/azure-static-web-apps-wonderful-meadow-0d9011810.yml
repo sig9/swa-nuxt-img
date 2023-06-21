@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - next
+      - azure
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:

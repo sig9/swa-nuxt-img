@@ -1,0 +1,15 @@
+{
+    "configurations": {
+      "swa-nuxt-img": {
+        "appLocation": "./",
+        "apiLocation": ".output/server",
+        "outputLocation": ".output/public",
+        "start": {
+          "outputLocation": ".output/public"
+        },
+        "deploy": {
+          "outputLocation": ".output/public"
+        }
+      }
+    }
+  }
